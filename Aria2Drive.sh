@@ -20,7 +20,7 @@ else
 fi
 if dpkg -l | grep -Eqi "nginx|apache|caddy"; then
   echo "System is modified"
-  echo "Pure Debain 9 is needed"
+  echo "Pure Debian 9 is needed"
   echo "***EXIT***"
   sleep 1
   exit
