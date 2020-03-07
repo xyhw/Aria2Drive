@@ -13,7 +13,7 @@ echo -e ""
 if cat /etc/*-release | grep -Eqi "debian gnu/linux 9"; then
   echo "Debian 9"
 else
-  echo "Only Debain 9 is supported"
+  echo "Only Debian 9 is supported"
   echo "***EXIT***"
   sleep 1
   exit
